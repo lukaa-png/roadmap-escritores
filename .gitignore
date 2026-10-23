@@ -1,0 +1,11 @@
+# Ambiente local e arquivos pessoais: não publicar com o site.
+.env
+.env.*
+!.env.example
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.zip
+work/

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sete práticas curtas para começar, explorar, planejar, escrever, revisar, compartilhar e refletir sobre sua ficção.">
+  <meta name="theme-color" content="#080d18">
+  <title>Práticas — Roadmap para jovens escritores</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+  <div class="abertura" id="inicio">
+    <header class="cabecalho largura">
+      <a class="nome-projeto" href="index.html">Roadmap para<br class="quebra-marca"> jovens escritores</a>
+      <nav aria-label="Navegação principal"><a href="index.html#mapa">O mapa</a><a href="praticas.html" aria-current="page">Práticas</a><a href="habilidades.html">Habilidades</a><a href="inspiracoes.html">Inspirações</a></nav>
+    </header>
+    <div class="pagina-abertura largura">
+      <p class="sobretitulo verde-claro">01 / Caderno de práticas</p>
+      <h1>Uma tentativa de cada vez<span class="ponto-verde">.</span></h1>
+      <p class="descricao">Você não precisa resolver um livro inteiro. Escolha uma prática, escreva um pouco e decida o que quer fazer depois.</p>
+    </div>
+  </div>
+  <main id="conteudo" class="largura secao">
+    <div class="faixa-percurso faixa-clara"><p><span class="sobretitulo verde-texto">Seu registro pessoal</span><span data-progresso>Com JavaScript, seus registros aparecem aqui.</span></p><button class="botao botao-contorno" type="button" data-baixar-caderno data-js hidden>Baixar meu caderno ↓</button></div>
+    <p id="mensagem-caderno" class="mensagem-acao" role="status" aria-live="polite"></p>
+    <p class="nota-editorial">As durações são sugestões de ritmo, não cronômetros. Nenhum exercício bloqueia o próximo. Os exemplos são textos criados para este projeto, não trechos de autores publicados.</p>
+    <noscript><p class="aviso-sem-js">Você pode abrir todas as práticas e escrever nos campos. Sem JavaScript, copie manualmente antes de sair: não há salvamento automático ou registro de avanço.</p></noscript>
+    <div class="layout-oficinas">
+      <nav class="indice-praticas" aria-label="Escolher uma prática">
+        <p class="sobretitulo verde-texto">Escolha seu ponto</p>
+        <ol><li><a href="#comecar">Começar</a></li><li><a href="#explorar">Explorar</a></li><li><a href="#planejar">Planejar</a></li><li><a href="#escrever">Escrever</a></li><li><a href="#revisar">Revisar</a></li><li><a href="#compartilhar">Compartilhar</a></li><li><a href="#refletir">Refletir</a></li></ol>
+        <a class="link-pratica" href="habilidades.html">Ver conexões ↗</a>
+      </nav>
+      <div class="lista-oficinas">
+        <details class="oficina" id="comecar" open>
+          <summary><span class="numero-etapa">01</span><span class="nome-oficina"><strong>Começar</strong><span>Uma ação encontra uma dificuldade.</span></span><span class="tempo-pratica">~5 min</span></summary>
+          <div class="oficina-conteudo">
+            <div class="orientacoes">
+              <p class="sobretitulo verde-texto">Habilidade / ação concreta</p>
+              <h2>Uma ação. Uma dificuldade.</h2>
+              <p>Uma tentativa pequena já pode colocar algo em movimento. Você pode usar uma ideia sua ou experimentar algo avulso.</p>
+              <ol class="instrucoes"><li>Escolha alguém que tenta fazer algo: abrir uma janela, alcançar um objeto, esconder um bilhete.</li><li>Coloque uma dificuldade imediata no caminho.</li><li>Escreva de três a cinco frases, se isso ajudar a começar. Não é um limite obrigatório.</li></ol>
+              <aside class="exemplo"><h3>Uma possibilidade</h3><p>Lia tentou abrir a janela, mas a madeira não cedeu. Apoiou as duas mãos na moldura e empurrou. A janela abriu de repente, espalhando suas anotações pelo quarto.</p><p class="legenda-exemplo">Tentativa, resistência e uma mudança. Outro tom ou resultado também vale.</p></aside>
+              <a class="link-pratica" href="habilidades.html#acao">Onde esta prática se conecta ↗</a>
+            </div>
+            <div class="escrita" data-editor="comecar">
+              <label class="rotulo-campo" for="texto-comecar">Seu primeiro rascunho</label>
+              <p id="ajuda-comecar" class="ajuda-campo">Não precisa ser o primeiro capítulo do seu livro.</p>
+              <textarea id="texto-comecar" rows="10" aria-describedby="ajuda-comecar privacidade" spellcheck="true" placeholder="Alguém tentou fazer alguma coisa, mas…"></textarea>
+              <div class="informacoes-campo"><span data-contador>0 caracteres</span><span data-status>Com JavaScript, salvamento neste navegador.</span></div>
+              <div class="acoes-texto" hidden><button class="botao botao-tinta" type="button" data-copiar>Copiar trecho</button><button class="botao botao-contorno" type="button" data-baixar>Baixar .txt ↓</button></div>
+              <label class="registro-pratica" data-js hidden><input type="checkbox" data-registrar="comecar"> Experimentei Começar</label>
+              <p class="mensagem-acao" data-mensagem role="status" aria-live="polite"></p>
+              <div class="reflexao"><p class="sobretitulo verde-texto">Antes de seguir</p><h3>O que nesse trecho me dá vontade de escrever mais uma frase?</h3><a class="link-pratica" href="#explorar">Experimentar Explorar ↗</a></div>
+            </div>
+          </div>
+        </details>
+
+        <details class="oficina" id="explorar">
+          <summary><span class="numero-etapa">02</span><span class="nome-oficina"><strong>Explorar</strong><span>Perceber o que prende sua atenção.</span></span><span class="tempo-pratica">~8 min</span></summary>
+          <div class="oficina-conteudo">
+            <div class="orientacoes">
+              <p class="sobretitulo verde-texto">Habilidade / olhar de leitor</p><h2>Leia como quem faz perguntas.</h2>
+              <p>Uma referência pode virar uma pergunta concreta sobre a escrita. Não é preciso descobrir a intenção de quem escreveu nem reproduzir seu estilo.</p>
+              <ol class="instrucoes"><li>Releia um parágrafo de uma obra a que você já tenha acesso. Se preferir, use o exemplo abaixo.</li><li>Escolha um detalhe que chamou sua atenção: um gesto, um objeto, uma pausa.</li><li>Anote o efeito que ele teve em você e crie duas frases próprias para experimentar uma escolha parecida, sem copiar a passagem.</li></ol>
+              <aside class="exemplo"><h3>Do detalhe à tentativa</h3><p>“O ônibus passou. Rosa continuou com o braço erguido.”</p><p class="legenda-exemplo">Observação possível: o braço que demora a baixar prolonga a espera. Tentativa própria: “A chamada caiu. Rui continuou falando para a tela apagada.”</p></aside>
+              <a class="link-pratica" href="inspiracoes.html#sally-rooney">Uma ponte possível: Sally Rooney ↗</a>
+            </div>
+            <div class="escrita" data-editor="explorar">
+              <label class="rotulo-campo" for="texto-explorar">Sua observação e sua tentativa</label><p id="ajuda-explorar" class="ajuda-campo">Registre a obra, o detalhe percebido e duas frases suas. Não é necessário colar o texto do livro.</p>
+              <textarea id="texto-explorar" rows="10" aria-describedby="ajuda-explorar privacidade" spellcheck="true" placeholder="Referência: … Detalhe que notei: … Efeito em mim: … Minha tentativa: …"></textarea>
+              <div class="informacoes-campo"><span data-contador>0 caracteres</span><span data-status>Com JavaScript, salvamento neste navegador.</span></div>
+              <div class="acoes-texto" hidden><button class="botao botao-tinta" type="button" data-copiar>Copiar trecho</button><button class="botao botao-contorno" type="button" data-baixar>Baixar .txt ↓</button></div>
+              <label class="registro-pratica" data-js hidden><input type="checkbox" data-registrar="explorar"> Experimentei Explorar</label><p class="mensagem-acao" data-mensagem role="status" aria-live="polite"></p>
+              <div class="reflexao"><p class="sobretitulo verde-texto">Antes de seguir</p><h3>Que escolha de escrita eu gostaria de testar outra vez?</h3><a class="link-pratica" href="#planejar">Experimentar Planejar ↗</a></div>
+            </div>
+          </div>
+        </details>
+
+        <details class="oficina" id="planejar">
+          <summary><span class="numero-etapa">03</span><span class="nome-oficina"><strong>Planejar</strong><span>Encontrar uma direção pequena.</span></span><span class="tempo-pratica">~5 min</span></summary>
+          <div class="oficina-conteudo">
+            <div class="orientacoes">
+              <p class="sobretitulo verde-texto">Habilidade / desejo e conflito</p><h2>O que essa pessoa quer agora?</h2>
+              <p>Planejar pode ser só escolher o que vem em seguida. Um desejo imediato e algo que o dificulta bastam para esta tentativa; fichas e universos inteiros são opcionais.</p>
+              <ol class="instrucoes"><li>Use um personagem seu ou invente alguém para esta prática.</li><li>Complete três linhas: “Quer…”, “Mas…”, “Então decide…”.</li><li>Escreva uma frase mostrando essa decisão como ação. Você pode mudar de plano ao escrever.</li></ol>
+              <aside class="exemplo"><h3>Um plano do tamanho de uma cena</h3><p>Quer devolver um livro sem conversar. Mas a dona está na porta da biblioteca. Então decide dizer que veio buscar um guarda-chuva.</p><p class="legenda-exemplo">Primeira ação: “Bia escondeu o livro sob o casaco e perguntou pelos objetos perdidos.”</p></aside>
+              <a class="link-pratica" href="habilidades.html#personagem">Ver desejo e conflito na árvore ↗</a>
+            </div>
+            <div class="escrita" data-editor="planejar">
+              <label class="rotulo-campo" for="texto-planejar">Seu plano pequeno</label><p id="ajuda-planejar" class="ajuda-campo">O plano serve ao texto, não precisa prever o final.</p>
+              <textarea id="texto-planejar" rows="10" aria-describedby="ajuda-planejar privacidade" spellcheck="true" placeholder="Quer… Mas… Então decide… Primeira ação:"></textarea>
+              <div class="informacoes-campo"><span data-contador>0 caracteres</span><span data-status>Com JavaScript, salvamento neste navegador.</span></div>
+              <div class="acoes-texto" hidden><button class="botao botao-tinta" type="button" data-copiar>Copiar trecho</button><button class="botao botao-contorno" type="button" data-baixar>Baixar .txt ↓</button></div>
+              <label class="registro-pratica" data-js hidden><input type="checkbox" data-registrar="planejar"> Experimentei Planejar</label><p class="mensagem-acao" data-mensagem role="status" aria-live="polite"></p>
+              <div class="reflexao"><p class="sobretitulo verde-texto">Antes de seguir</p><h3>A escolha do personagem me ajuda a imaginar uma próxima ação?</h3><a class="link-pratica" href="#escrever">Experimentar Escrever ↗</a></div>
+            </div>
+          </div>
+        </details>
+
+        <details class="oficina" id="escrever">
+          <summary><span class="numero-etapa">04</span><span class="nome-oficina"><strong>Escrever</strong><span>Uma conversa com algo por dizer.</span></span><span class="tempo-pratica">~8 min</span></summary>
+          <div class="oficina-conteudo">
+            <div class="orientacoes">
+              <p class="sobretitulo verde-texto">Habilidade / diálogo e subtexto</p><h2>Nem tudo precisa ser dito.</h2>
+              <p>Subtexto é uma possibilidade de leitura do que fica sugerido, além do que a fala declara. Nesta tentativa, experimente uma diferença entre o pedido feito e o que a pessoa gostaria de pedir.</p>
+              <ol class="instrucoes"><li>Uma pessoa quer que a outra fique mais um pouco, mas não faz esse pedido diretamente.</li><li>Escreva de quatro a seis falas e inclua um gesto ou um objeto entre elas. Ou use um conflito seu.</li><li>Termine com uma pequena mudança: alguém espera, vai embora ou faz outra pergunta.</li></ol>
+              <aside class="exemplo"><h3>Uma conversa possível</h3><p>— Ainda tem café.<br>— Meu ônibus passa em dez minutos.<br>Lia colocou uma segunda xícara na mesa.<br>— O próximo também passa aqui.<br>Rui tirou a mochila do ombro.</p><p class="legenda-exemplo">O convite aparece no café e na xícara. Não existe uma única interpretação correta.</p></aside>
+              <a class="link-pratica" href="inspiracoes.html#pontes">Por que ligar esta prática a Pessoas normais? ↗</a>
+            </div>
+            <div class="escrita" data-editor="escrever">
+              <label class="rotulo-campo" for="texto-escrever">Sua conversa curta</label><p id="ajuda-escrever" class="ajuda-campo">Seu próprio tom e seus personagens. Não é um exercício de imitar Sally Rooney.</p>
+              <textarea id="texto-escrever" rows="10" aria-describedby="ajuda-escrever privacidade" spellcheck="true" placeholder="— Você já vai?"></textarea>
+              <div class="informacoes-campo"><span data-contador>0 caracteres</span><span data-status>Com JavaScript, salvamento neste navegador.</span></div>
+              <div class="acoes-texto" hidden><button class="botao botao-tinta" type="button" data-copiar>Copiar trecho</button><button class="botao botao-contorno" type="button" data-baixar>Baixar .txt ↓</button></div>
+              <label class="registro-pratica" data-js hidden><input type="checkbox" data-registrar="escrever"> Experimentei Escrever</label><p class="mensagem-acao" data-mensagem role="status" aria-live="polite"></p>
+              <div class="reflexao"><p class="sobretitulo verde-texto">Antes de seguir</p><h3>O que pode ser percebido sem ser explicado?</h3><a class="link-pratica" href="#revisar">Experimentar Revisar ↗</a></div>
+            </div>
+          </div>
+        </details>
+
+        <details class="oficina" id="revisar">
+          <summary><span class="numero-etapa">05</span><span class="nome-oficina"><strong>Revisar</strong><span>Mudar uma coisa e observar o efeito.</span></span><span class="tempo-pratica">~8 min</span></summary>
+          <div class="oficina-conteudo">
+            <div class="orientacoes">
+              <p class="sobretitulo verde-texto">Habilidade / reescrita consciente</p><h2>Uma mudança, não uma sentença.</h2>
+              <p>Revisar não precisa significar consertar tudo. Compare duas versões e escolha o efeito que mais interessa a você.</p>
+              <ol class="instrucoes"><li>Copie para este campo um trecho seu de duas a cinco frases, ou use o exemplo abaixo.</li><li>Guarde a versão original e escreva uma segunda, alterando só uma escolha: verbo, ordem, detalhe ou pausa.</li><li>Anote o que mudou na sua leitura e qual versão você prefere para essa cena.</li></ol>
+              <aside class="exemplo"><h3>Duas escolhas, dois efeitos</h3><p>Antes: “Lia abriu a carta rapidamente e ficou preocupada.”</p><p>Depois: “Lia rasgou a borda do envelope. Leu a primeira linha e trancou a porta.”</p><p class="legenda-exemplo">A segunda sugere uma reação por ações. Não é uma regra de que toda explicação deve desaparecer.</p></aside>
+              <a class="link-pratica" href="habilidades.html#reescrita">Ver reescrita na árvore ↗</a>
+            </div>
+            <div class="escrita" data-editor="revisar">
+              <label class="rotulo-campo" for="texto-revisar">Seu antes e depois</label><p id="ajuda-revisar" class="ajuda-campo">Este é outro campo: não substitui nem altera automaticamente o primeiro rascunho.</p>
+              <textarea id="texto-revisar" rows="10" aria-describedby="ajuda-revisar privacidade" spellcheck="true" placeholder="Versão original: … Nova tentativa: … O que mudou para mim: …"></textarea>
+              <div class="informacoes-campo"><span data-contador>0 caracteres</span><span data-status>Com JavaScript, salvamento neste navegador.</span></div>
+              <div class="acoes-texto" hidden><button class="botao botao-tinta" type="button" data-copiar>Copiar trecho</button><button class="botao botao-contorno" type="button" data-baixar>Baixar .txt ↓</button></div>
+              <label class="registro-pratica" data-js hidden><input type="checkbox" data-registrar="revisar"> Experimentei Revisar</label><p class="mensagem-acao" data-mensagem role="status" aria-live="polite"></p>
+              <div class="reflexao"><p class="sobretitulo verde-texto">Antes de seguir</p><h3>Que efeito eu quis criar com essa mudança?</h3><a class="link-pratica" href="#compartilhar">Experimentar Compartilhar ↗</a></div>
+            </div>
+          </div>
+        </details>
+
+        <details class="oficina" id="compartilhar">
+          <summary><span class="numero-etapa">06</span><span class="nome-oficina"><strong>Compartilhar</strong><span>Pedir o retorno de que você precisa.</span></span><span class="tempo-pratica">~5 min</span></summary>
+          <div class="oficina-conteudo">
+            <div class="orientacoes">
+              <p class="sobretitulo verde-texto">Habilidade / escuta e escolha</p><h2>Um leitor. Uma pergunta.</h2>
+              <p>Mostrar um texto é uma escolha sua. Aqui, basta preparar um convite de leitura; não é necessário enviar, publicar ou receber comentários para experimentar a prática.</p>
+              <ol class="instrucoes"><li>Escolha um trecho pequeno e alguém com quem você se sinta à vontade. Evite incluir informações pessoais de terceiros.</li><li>Diga que é um rascunho e formule uma pergunta específica: “O que você entendeu que a personagem queria?”</li><li>Se decidir enviar fora do site, peça permissão e combine o tamanho da leitura. Depois, escolha o que quer aproveitar do retorno.</li></ol>
+              <aside class="exemplo"><h3>Um convite possível</h3><p>“Oi! Você teria vontade de ler seis linhas de um rascunho? Quero descobrir se dá para entender por que a personagem espera na porta. Não preciso de revisão gramatical agora. Tudo bem se não puder.”</p><p class="legenda-exemplo">O site não manda mensagens nem compartilha textos. Você decide se, quando e com quem enviar.</p></aside>
+              <a class="link-pratica" href="habilidades.html#escuta">Ver escuta e escolha na árvore ↗</a>
+            </div>
+            <div class="escrita" data-editor="compartilhar">
+              <label class="rotulo-campo" for="texto-compartilhar">Seu convite e sua pergunta</label><p id="ajuda-compartilhar" class="ajuda-campo">Não precisa registrar nome, telefone ou contato do leitor.</p>
+              <textarea id="texto-compartilhar" rows="10" aria-describedby="ajuda-compartilhar privacidade" spellcheck="true" placeholder="O trecho que quero mostrar: … Minha pergunta: … Meu convite: …"></textarea>
+              <div class="informacoes-campo"><span data-contador>0 caracteres</span><span data-status>Com JavaScript, salvamento neste navegador.</span></div>
+              <div class="acoes-texto" hidden><button class="botao botao-tinta" type="button" data-copiar>Copiar trecho</button><button class="botao botao-contorno" type="button" data-baixar>Baixar .txt ↓</button></div>
+              <label class="registro-pratica" data-js hidden><input type="checkbox" data-registrar="compartilhar"> Experimentei Compartilhar</label><p class="mensagem-acao" data-mensagem role="status" aria-live="polite"></p>
+              <div class="reflexao"><p class="sobretitulo verde-texto">Antes de seguir</p><h3>Que resposta me ajudaria a escolher uma próxima mudança?</h3><a class="link-pratica" href="#refletir">Experimentar Refletir ↗</a></div>
+            </div>
+          </div>
+        </details>
+
+        <details class="oficina" id="refletir">
+          <summary><span class="numero-etapa">07</span><span class="nome-oficina"><strong>Refletir</strong><span>Perceber o que vale levar adiante.</span></span><span class="tempo-pratica">~5 min</span></summary>
+          <div class="oficina-conteudo">
+            <div class="orientacoes">
+              <p class="sobretitulo verde-texto">Habilidade / escuta de si</p><h2>Você não volta ao mesmo ponto.</h2>
+              <p>Uma tentativa pode terminar com uma descoberta pequena. Ela não precisa provar que você tem talento nem se transformar imediatamente em outro projeto.</p>
+              <ol class="instrucoes"><li>Releia uma coisa que você escreveu ou observou nesta visita.</li><li>Complete: “Percebi…”, “Quero tentar…” e “Meu próximo passo pequeno é…”.</li><li>Escolha voltar a uma prática, escrever fora do site ou parar por hoje. Se quiser, baixe seu caderno.</li></ol>
+              <aside class="exemplo"><h3>Um próximo passo possível</h3><p>Percebi que um objeto me ajuda a iniciar uma conversa. Quero tentar uma cena em que alguém esconde um ingresso. Meu próximo passo é escrever só as duas primeiras falas amanhã.</p><p class="legenda-exemplo">Não há sequência obrigatória ou prazo a cumprir. Este é um registro de processo, não um boletim.</p></aside>
+              <a class="link-pratica" href="habilidades.html">Rever minhas conexões ↗</a>
+            </div>
+            <div class="escrita" data-editor="refletir">
+              <label class="rotulo-campo" for="texto-refletir">O que você leva daqui</label><p id="ajuda-refletir" class="ajuda-campo">Pode ser uma descoberta, uma dúvida ou uma vontade de continuar.</p>
+              <textarea id="texto-refletir" rows="10" aria-describedby="ajuda-refletir privacidade" spellcheck="true" placeholder="Percebi… Quero tentar… Meu próximo passo pequeno é…"></textarea>
+              <div class="informacoes-campo"><span data-contador>0 caracteres</span><span data-status>Com JavaScript, salvamento neste navegador.</span></div>
+              <div class="acoes-texto" hidden><button class="botao botao-tinta" type="button" data-copiar>Copiar trecho</button><button class="botao botao-contorno" type="button" data-baixar>Baixar .txt ↓</button></div>
+              <label class="registro-pratica" data-js hidden><input type="checkbox" data-registrar="refletir"> Experimentei Refletir</label><p class="mensagem-acao" data-mensagem role="status" aria-live="polite"></p>
+              <div class="reflexao"><p class="sobretitulo verde-texto">Não precisa acabar aqui</p><h3>Qual tentativa eu escolheria fazer de novo, com outra curiosidade?</h3><a class="link-pratica" href="index.html#mapa">Voltar ao mapa ↗</a></div>
+            </div>
+          </div>
+        </details>
+      </div>
+    </div>
+    <aside class="nota-privacidade" id="privacidade"><h2>Seu texto continua sendo seu.</h2><p>O site não envia nem publica os rascunhos. Com JavaScript, ficam neste navegador, perfil e endereço; não sincronizam entre aparelhos e podem desaparecer ao limpar os dados. Em um dispositivo compartilhado, outras pessoas do mesmo perfil podem acessá-los. Baixe uma cópia para guardar. Cada prática tem seu próprio campo; o de Começar é o mesmo da página inicial.</p></aside>
+  </main>
+  <footer class="rodape"><div class="largura rodape-conteudo"><div><p>Roadmap para jovens escritores</p><p class="rodape-nota">V.01.1 / Práticas em construção, sem avaliação automática.</p></div><a href="#inicio">Voltar ao início ↑</a></div></footer>
+</body>
+</html>
